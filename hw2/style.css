@@ -1,0 +1,73 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(255, 244, 245);
+}
+
+nav {
+    position: fixed;
+    background-color: lightpink;
+    top: 10px;
+    height: 40px;
+    left: 8px;
+    right: 8px;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: purple;
+    font-weight: bold;
+}
+
+header {
+    height: 350px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+img {
+    height: 300px;
+    width: 239px;
+    border-radius: 30px;
+}
+
+.my_photo {
+    float: right;
+}
+
+.icons {
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    margin-top: 3px;
+    border-radius: none;
+}
+
+.content-box {
+    border: 2px solid darkgray;
+    border-radius: 15px;
+    scroll-margin-top: 60px;
+    margin: 6px;
+    padding: 6px;
+}
+
+section {
+    padding: 10px;
+}
+
+footer {
+    background-color: lightpink;
+    color: purple;
+    top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
