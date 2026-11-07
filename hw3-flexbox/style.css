@@ -1,0 +1,105 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.nav-center-button {
+    border: none;
+    background-color: white;
+    padding: 16px;
+}
+
+.nav-right-button {
+    border: none;
+    background-color: white;
+    padding: 16px;
+}
+
+.sign-up-button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    width: 80px;
+}
+
+.blue-span {
+    color: rgb(62, 62, 204);
+}
+
+.header {
+    background-color: rgb(31, 31, 91);
+}
+
+.header-h1 {
+    text-align: center;
+    color: white;
+}
+
+.header-p {
+    text-align: center;
+    white-space: pre-line;
+    color: gray;
+}
+
+.icons {
+    height: 20px;
+    width: 20px;
+}
+p {
+    white-space: pre-line;
+}
+
+.flex-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.default {
+    border: 1.5px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.first-box {
+    border-top: 5px solid red;
+}
+
+.second-box {
+    border-top: 5px solid rgb(62, 62, 204);
+}
+
+.third-box {
+    border-top: 5px solid green;
+
+}
+
+.box-1-h2 {
+    color: red;
+}
+
+.box-2-h2 {
+    color: rgb(62, 62, 204);
+}
+
+.box-3-h2 {
+    color: green;
+}
+
+.a-explore {
+    color: rgb(62, 62, 204);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
