@@ -1,8 +1,14 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: rgb(203, 199, 208);
+}
+
 .nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 50px;
+    background-color: white;
 }
 
 a {
@@ -25,7 +31,7 @@ a {
 .sign-up-button {
     background-color: black;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
     height: 30px;
     width: 80px;
@@ -36,7 +42,12 @@ a {
 }
 
 .header {
-    background-color: rgb(31, 31, 91);
+    background-color: rgb(45, 45, 63);
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-h1 {
@@ -50,10 +61,43 @@ a {
     color: gray;
 }
 
+.header-buttons-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header-button-white {
+    background-color: white;
+    border: none;
+    color: rgb(45, 45, 63);
+    border-radius: 5px;
+    height: 40px;
+    width: 110px;
+}
+
+.header-button-black {
+    background-color: rgb(45, 45, 63);
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 40px;
+    width: 140px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
 .icons {
     height: 20px;
     width: 20px;
 }
+
 p {
     white-space: pre-line;
 }
@@ -102,4 +146,23 @@ p {
 .footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-top: 2px solid lightgray;
+    height: 70px;
+    box-sizing: border-box;
+    /* padding: 20px; */
+    /* padding: 15px; */
+}
+
+.footer-p {
+    color: lightgray;
+    height: 30px;
+}
+
+.footer-img {
+    display: flex;
+    align-items: center;
+    /* height: 30px; */
+    gap: 4px;
 }
