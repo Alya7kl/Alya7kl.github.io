@@ -7,8 +7,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 60px;
     background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 a {
@@ -43,7 +45,8 @@ a {
 
 .header {
     background-color: rgb(45, 45, 63);
-    height: 350px;
+    min-height: 350px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,6 +94,8 @@ a {
     justify-content: center;
     align-items: center;
     background-color: white;
+    min-height: 500px;
+    height: auto;
 }
 
 .icons {
@@ -104,8 +109,9 @@ p {
 
 .flex-boxes {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 15px;
+    flex-wrap: wrap;
 }
 
 .default {
@@ -148,21 +154,99 @@ p {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    border-top: 2px solid lightgray;
+    border-top: 1px solid lightgray;
     height: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
     box-sizing: border-box;
-    /* padding: 20px; */
-    /* padding: 15px; */
 }
 
 .footer-p {
     color: lightgray;
-    height: 30px;
+    display: flex;
+    align-items: center;
 }
 
 .footer-img {
     display: flex;
     align-items: center;
-    /* height: 30px; */
     gap: 4px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .nav-bar {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .nav-center-button {
+        padding: 8px;
+    }
+
+    .default {
+        padding: 12px;
+    }
+
+    .main {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .nav-bar {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 10px;
+    }
+
+    .header {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .header-h1 {
+        font-size: 25px;
+    }
+
+    .main {
+        height: auto;
+        padding: 30px 15px;
+        box-sizing: border-box;
+    }
+
+    .flex-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .nav-center-button {
+        padding: 5px;
+    }
+
+    .header-h1 {
+        font-size: 21px;
+    }
+
+    .header-p {
+        font-size: 13px;
+    }
+
+    .header-buttons-box {
+        gap: 10px;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+
+    .footer-p {
+        font-size: 11px;
+    }
 }
